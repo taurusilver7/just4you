@@ -63,4 +63,6 @@ Create an enum to describe the nav-menu elements to make them more dynamical and
 
 Create a custom hook to manually set the media query breakpoint for larger screen resolutions.
 
+Create a custom button component to add to the navbar menu. Populate the mobile version of the navmenu & style the nav menus. Build the sidebar underneath the desktop-version navbar with a condition for screen resolution.
+
 
