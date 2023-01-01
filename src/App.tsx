@@ -6,14 +6,16 @@ function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
     SelectedPage.Home
   );
+  const [topPage, setTopPage] = useState<boolean>(true);
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY === 0) {
         setSelectedPage(SelectedPage.Home);
+        setTopPage(true);
       }
-      if (window.scrollY !== 0) {
-      }
+      if (window.scrollY !== 0) setTopPage(false);
+
       window.addEventListener("scroll", handleScroll);
       return () => window.removeEventListener("scroll", handleScroll);
     };
@@ -21,7 +23,7 @@ function App() {
 
   return (
     <div className="app bg-gray-20">
-      <Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
+      <Navbar topPage={topPage} selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
     </div>
   );
 }
