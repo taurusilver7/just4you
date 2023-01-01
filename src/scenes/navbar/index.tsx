@@ -25,7 +25,7 @@ const Navbar = ({ topPage, selectedPage, setSelectedPage }: Props) => {
         <div className={`${flexBetween} mx-auto w-5/6`}>
           {/* Left side */}
           <div className={`${flexBetween} w-full gap-16`}>
-            <img src={Logo} alt="logo" />
+            <img className="object-contain h-12 w-34" src={Logo} alt="logo" />
 
             {/* right side:hidden */}
             {abvMedScrn ? (
