@@ -53,6 +53,8 @@ Set the [font](https://fonts.google.com/specimen/Montserrat?query=monts) and set
 
 - Build
 
+* Navbar
+
 Create a Navbar component in /scenes directory. Populate & style the standard business navbar regarding mobile & desktop resolution.
 
 Use pesticide chrome widget, and react-anchor-links-smooth-scroll dependency to create a link component. Use props, states to populate the nav menu elements dynamically.
@@ -65,4 +67,7 @@ Create a custom hook to manually set the media query breakpoint for larger scree
 
 Create a custom button component to add to the navbar menu. Populate the mobile version of the navmenu & style the nav menus. Build the sidebar underneath the desktop-version navbar with a condition for screen resolution.
 
+Create a custom dynamic navbar background on scrolling & style it for a different background color on the navbar.
+
+* Home
 
