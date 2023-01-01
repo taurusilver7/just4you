@@ -61,4 +61,6 @@ Create a selected page state in main component & pass it down to the Navbar & Li
 
 Create an enum to describe the nav-menu elements to make them more dynamical and their types more explicit. Modify the props in Navbar, Link components to that of the enum for a error-free reusable components.
 
-Create a custom hook to manually set the media query breakpoint for smaller screen resolutions.
+Create a custom hook to manually set the media query breakpoint for larger screen resolutions.
+
+
