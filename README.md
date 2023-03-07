@@ -2,6 +2,8 @@
 
 > A React-Typescript based single-page fitness application.
 
+![just4you](https://www.linkpicture.com/q/jsut4you.png)
+
 There will be Typescript elements, and a lot of layout fundamentals to go with while building a SPA.
 
 We will be using [Typescript](https://www.typescriptlang.org/), [React](https://reactjs.org/docs/getting-started.html) framework, [Vite](https://vitejs.dev/guide/) starter pack, [Framer motion](https://www.framer.com/docs/) for animation, [tailwindcss](https://tailwindcss.com/docs/installation) for styling.
